@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/turf@7.2.0/turf.min.js"></script>
+</head>
+
+<body style="position: relative;">
+    <div id="map"></div>
+    <div class="informative-card">
+        <h1>Operações Segmentadas</h1>
+        <p><b>Large Enterprise:</b> Atuação em todo território desde que o faturamento da conta ou grupo econômico seja
+            superior a 1,2B
+        </p>
+        <p><b>MPN:</b> As contas com faturamento inferior a 4,5MM são preferencialmente atendidas por unidades MPN, de
+            acordo com o CEP.
+            Caso o desejo e necessidade do cliente se encaixe no portfólio SMB, o mesmo pode ser atendido respeitando as
+            regras mencionadas anteriormente.
+        </p>
+        <p><b>SPUB:</b> Contas com natureza jurídica referenciadas como setor público devem ser atendidas exclusivamente por SPUB.</p>
+        <p><b>Totvs Saúde:</b> Contas do segmento Saúde são de atendimento exclusivo da unidade saúde. Com exceção das unidades que possuem metas no segmento.</p>
+        <p><b>Totvs Juritis:</b> Atendimento de clientes do segmento jurídico.</p>
+    </div>
+    <script type="module" src="scripts.js"></script>
+
+</body>
+
+</html>
